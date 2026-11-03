@@ -1,0 +1,38 @@
+:root {
+    --goiaba: #eaaa9b;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    background-color: rgb(89, 85, 85);
+}
+
+.box {
+    width: 200px;
+    height: auto;
+    background-color: var(--goiaba);
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 8px;
+
+    
+}
+.smallbox {
+        width: 100px;
+        height: 20px;
+        background-color: white;
+        align-self: center; /*alinhamento horizontal do elemento dentro do box*/
+    }
+
+.container {
+    display: flex;
+    flex-direction: column; /* aqui é a direção (vertical) dos elementos dentro do container */
+    gap: 8px;
+    height: 100%;
+    flex-wrap: wrap; /*diminuir e aumentar a janela do navegador*/
+    align-items: center; /*alinhamento horizontal dos elementos dentro do container*/
+    
+
+}

@@ -1,0 +1,24 @@
+html, body {
+    background-color: #878e8e;
+    color:#0a2cd6;
+    text-align: center;
+}
+
+button {
+    background-color: black;
+    border: 10px solid white;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    
+}
+
+blockquote {
+    font-size: 24px;
+    color: #4e524f;
+}
+
+iframe {
+    border: none;
+    padding: 200px;
+}

@@ -1,0 +1,32 @@
+:root {
+    --fundo: #1e1e2e;
+    --texto: #f5f5f5;
+    --destaque: #f38ba8;
+    --raio: 12px;
+    --espaco: 24px;
+}
+
+body {
+    background-color: var(--fundo);
+    color: var(--texto);
+    font-family: sans-serif;
+}
+
+.painel {
+    padding: var(--espaco);
+    border: 2px solid var(--destaque);
+    border-radius: var(--raio);
+    width: 50%;
+}
+
+h1 {
+    color: var(--destaque);
+}
+
+.botao {
+    background-color: var(--destaque);
+    color: var(--fundo);
+    border: none;
+    border-radius: var(--raio);
+    padding: 10px 20px;
+}

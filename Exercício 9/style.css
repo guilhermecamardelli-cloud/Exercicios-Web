@@ -1,0 +1,31 @@
+.box {
+    background-color: lightgray;
+    border-radius: 15px;
+    border: 1px solid black;
+    padding: 40px 20px;
+    width: 50%;
+    align-items: flex-end;
+    justify-content: center;
+    
+
+    .titulo {
+        text-align: center;
+        font-size: 24px;
+    }
+
+    hr {
+        border: none;
+        height: 2px;
+        background-color: black;
+    }
+
+    .apresentacao {
+        margin-top: 15px;
+        margin-bottom: 15px;
+        text-align: justify;
+    }
+
+    .telefone {
+        margin-bottom: 5px;
+    }
+}

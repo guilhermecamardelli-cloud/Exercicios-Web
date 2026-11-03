@@ -1,0 +1,23 @@
+:root {
+    --uva: pink;
+    background-color: #f0f0f0;
+}
+.box {
+    width: 150px;
+    height: 100px;
+    background-color: var(--uva);
+    border-radius: 5px;
+    border: 2px black solid;
+
+
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin: 200px;
+    justify-content: space-between;
+    gap: 30px;
+}

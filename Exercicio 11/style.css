@@ -1,0 +1,38 @@
+:root {
+    --card-fundo: #e8e8e8;
+    --borda: #333;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.titulo {
+    text-align: center;
+}
+
+.lista {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card {
+    background-color: var(--card-fundo);
+    border: 1px solid var(--borda);
+    border-radius: 15px;
+    padding: 24px 20px;
+    width: 250px;
+
+    h2 {
+        text-align: center;
+        margin-top: 0;
+    }
+
+    hr {
+        border: none;
+        height: 2px;
+        background-color: var(--borda);
+    }
+}

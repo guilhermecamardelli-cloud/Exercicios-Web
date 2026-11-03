@@ -1,0 +1,22 @@
+.bodyIndex {
+    background-color: cyan;
+}
+
+.bodySeries {
+    background-color: brown;
+}
+
+.bodyMusicas {
+    background-color: green;
+}
+
+#title {
+    color: red;
+    text-align: center;
+}
+
+.description {
+    font-size: 18px;
+    color: blue;
+    text-align: center;
+}
